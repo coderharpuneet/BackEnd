@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .form-container {
+    flex: 1;
+    padding: 50px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #6a4b3b;
+  }
+  
+  p {
+    margin: 10px 0;
+    color: #6a4b3b;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+  }
+.form-group select{
+    width: 105%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+  .register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a4b3b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .register-btn:hover {
+    background-color: #8c6b56;
+  }
+  
+  .login-link {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  .login-link a {
+    color: #6a4b3b;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    margin-top: 50px;
+    font-size: 0.8em;
+    color: #aaa;
+  }
+  
+  .image-container {
+    flex: 1;
+    background: url('background.jpg') no-repeat center center / cover;
+  }
+  
